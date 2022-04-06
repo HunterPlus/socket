@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (sockfd == -1) 
-        printf("cound not create socket");
+        printf("could not create socket");
     else
         printf("socket create success\n");
     return 0;
